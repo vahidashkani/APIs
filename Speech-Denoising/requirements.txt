@@ -1,0 +1,14 @@
+python-multipart
+fastapi
+uvicorn[standard]
+
+torch
+torchaudio
+torchinfo
+soundfile
+numpy
+natsort
+einops
+joblib
+pesq==0.0.4
+scipy
