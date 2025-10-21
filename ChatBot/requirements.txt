@@ -1,0 +1,27 @@
+fastapi
+uvicorn
+torch
+torchaudio
+onnx
+onnxruntime
+omegaconf
+python-multipart
+pydantic
+fastapi[standard]
+soundfile
+librosa
+
+# Whisper runtime
+faster-whisper==1.0.3
+
+# RAG stack
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+
+# utils
+tqdm
+
+
