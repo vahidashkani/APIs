@@ -19,4 +19,11 @@ Applies ***transformer-based speech enhancement*** to remove background noise, r
 - Provides ***clean, high-quality audio output***.
 - Suitable for ***telehealth, hearing-aid research, and voice analytic***s.
 
+# Docker Deployment
+Each module includes a dedicated ***Dockerfile*** with pre-configured dependencies for quick setup.
+Run any API locally or on cloud with a single command:
+- docker build -t speech_ai_api .
+- docker run -p 8000:8000 speech_ai_api
 
+Fully compatible with ***AWS, GCP, Azure, and local servers***.
+Supports ***scalable deployment, load balancing***, and ***microservice orchestration*** via Docker Compose or Kubernetes.
